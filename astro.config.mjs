@@ -6,6 +6,5 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "intolerableone.github.io",
-  base: "birthdebrief",
   integrations: [tailwind(), mdx(), sitemap()],
 });
